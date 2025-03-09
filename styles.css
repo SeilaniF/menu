@@ -1,0 +1,38 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando a barra de navegação */
+nav {
+    background: #333; /* Cor de fundo preta */
+    padding: 15px; /* Espaçamento interno */
+}
+
+/* Estilizando a lista do menu */
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Organiza os itens lado a lado */
+    justify-content: center; /* Centraliza os itens */
+}
+
+/* Estilizando os itens da lista */
+nav ul li {
+    margin: 0 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilizando os links */
+nav ul li a {
+    color: white; /* Cor do texto branco */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 18px; /* Tamanho da fonte maior */
+}
+
+/* Efeito ao passar o mouse */
+nav ul li a:hover {
+    color: #007bff; /* Muda a cor do texto para azul */
+}
